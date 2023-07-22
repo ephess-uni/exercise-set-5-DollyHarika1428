@@ -6,7 +6,6 @@ def get_repository_root() -> Path:
     get_repository_root returns a pathlib.Path object that can be used to locate files
     relative to the repository root--regardless of the run environment.  As long as
     this module in importable, the repository root can be located.
-
     Example
     -------
     repo_root = get_repository_root()
